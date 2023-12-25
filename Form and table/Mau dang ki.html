@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form >
+        <h3>Đăng kí nhân viên</h3>
+        <div>
+            <label for="userName">Họ và tên</label>
+            <input name="userName" id="userName" type="text">
+        </div>
+        <br>
+        <div>
+            <label for="date">Ngày sinh đầy đủ</label>
+            <input name="date" type="date">
+        </div>
+        <br>
+        <div>
+            <label for="month">Tháng và Năm</label>
+            <input name="month" type="month">
+        </div>
+        <br>
+        <div>
+            <label for="time">Thời gian</label>
+            <input name="time" type="time">
+        </div>
+        <br>
+        <div>
+            <label for="gender">Giới tính</label>
+            <input name="gender" type="radio"> Nam
+            <input name="gender" type="radio"> Nữ
+            <input name="gender" type="radio"> Khác
+        </div>
+        <br>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email">
+        </div>
+        <br>
+        <div>
+            <label for="password">Mật khẩu</label>
+            <input type="password" name="password" minlength="8">
+        </div>
+        <br>
+        <div>
+            <p for="information">Giới thiệu bản thân</p>
+            <textarea name="information" id="information" cols="30" rows="10"></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="city">Thành phố</label>
+            <select name="city" id="">
+                <option value="">Hà Nội</option>
+                <option value="">Bắc Giang</option>
+                <option value="">Hải Dương</option>
+                <option value="">Pleiku</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="picture">Hình ảnh</label>
+            <input type="file" id="picture" accept="image/*">
+        </div>
+        <br>
+        <div>
+            <label for="hobby">Sở thích</label>
+            <input type="checkbox"> Code
+            <input type="checkbox"> Chơi game
+            <input type="checkbox"> Bơi lội
+            <input type="checkbox"> Đá bóng
+        </div>
+        <br>
+        <div>
+            <label for="">Tiến độ hoàn thành công việc</label>
+            <input type="range">
+        </div>
+        <br>
+        <div>
+            <label for="experience">Năm kinh nghiệm</label>
+            <input type="number" name="experience" min="1", max="10">
+        </div>
+        <br>
+        <div>
+            <label for="search">Tìm kiếm</label>
+            <input type="search" name="search">
+        </div>
+        <br>
+        <div>
+            <label for="color">Màu sắc ưa thích</label>
+            <input type="color" name="color">
+        </div>
+        <br>
+        <div>
+            <input type="button" value="Hủy">
+            <input type="reset" value="Làm mới">
+            <input type="submit" value="Gửi">
+        </div>
+    </form>
+</body>
+</html>
