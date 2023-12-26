@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style type="text/css">
+    table, th, td{
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+</style>
+<body>
+    <table>
+        <thead>
+            <caption><i><h2>My Store</h2></i></caption>
+            <tr>
+                <th style="text-align: center;" width="150px">Item Photo</th>
+                <th style="text-align: center;">Name</th>
+                <th style="text-align: center;">Price</th>
+            </tr>
+            <tr>
+                <td style="text-align: center;"><img src="https://tse4.mm.bing.net/th?id=OIP.BwYJrwXoWwJ3M1T7BfK1fgHaHa&pid=Api&P=0&h=220" alt="" width="70px"></td>
+                <td style="text-align: center;" width="150px">Oranges</td>
+                <td style="text-align: center;" width="150px">$1 ea.</td>
+            </tr>
+            <tr>
+                <td style="text-align: center;"><img src="https://tse3.mm.bing.net/th?id=OIP.8UncVNiaqxwwJRIe8otQGAHaFv&pid=Api&P=0&h=220" alt="" width="70px"></td>
+                <td style="text-align: center;">Bananas</td>
+                <td style="text-align: center;">$0.75/lb</td>
+            </tr>
+            <tr>
+                <td style="text-align: center;"><img src="https://tse4.mm.bing.net/th?id=OIP.Cb18ljoxi18hcUPPjYVYlwHaFx&pid=Api&P=0&h=220" alt="" width="70px"></td>
+                <td style="text-align: center;">Pomegranates</td>
+                <td style="text-align: center;">3 for $5</td>
+            </tr>
+            <tr>
+                <td style="text-align: center;"><img src="https://tse4.mm.bing.net/th?id=OIP.7pmO0HDcbPg6CyPxs25MLQHaHQ&pid=Api&P=0&h=220" alt="" width="70px"></td>
+                <td style="text-align: center;">Gummy bears</td>
+                <td style="text-align: center;">$6 for bag</td>
+            </tr>
+            <tr>
+                <td style="text-align: center;"><img src="https://tse3.mm.bing.net/th?id=OIP.ylsxltmDhCYzQ-OvnLU1HAHaFj&pid=Api&P=0&h=220" alt="" width="70px"></td>
+                <td style="text-align: center;">Broccoli</td>
+                <td style="text-align: center;">$3 a head</td>
+            </tr>
+        </thead>
+    </table>
+    <br>
+    <!-- Tạo form đặt phòng khách sạn -->
+    <h2>Booking Form</h2>
+    <form action="">
+        <div>
+            <label for="name">Name</label>
+            <input type="text" name="name">
+        </div>
+        <br>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email">
+        </div>
+        <br>
+        <div>
+            <label for="phone">Phone</label>
+            <input type="phone" name="phone">
+        </div>
+        <br>
+        <div>
+            <label for="date">Date</label>
+            <input type="date" name="date">
+        </div>
+        <br>
+        <div>
+            <label for="time">Time</label>
+            <input type="time" name="time">
+        </div>
+        <br>
+        <div>
+            <label for="number">Numbers of Guests</label>
+            <input type="number" name="number">
+        </div>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+    <br>
+    <!-- Tạo form mua xe -->
+    <h2>Car Purchase Form</h2>
+    <form action="">
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" name="name">
+        </div>
+        <br>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email">
+        </div>
+        <br>
+        <div>
+            <label for="phone">Phone</label>
+            <input type="phone" name="phone">
+        </div>
+        <br>
+        <div>
+            <label for="car">Choose a car: </label>
+            <select name="car" id="">
+                <option value="">Model 1</option>
+                <option value="">Model 2</option>
+                <option value="">Model 3</option>
+                <option value="">Model 4</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="color">Choose a color:</label>
+            <select name="color" id="">
+                <option value="">Red</option>
+                <option value="">Green</option>
+                <option value="">Blue</option>
+                <option value="">Yellow</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="number">Quantity:</label>
+            <input type="number" name="number">
+        </div>
+        <br>
+        <div>
+            <label for="date">Delivery Date:</label>
+            <input type="date" name="date">
+        </div>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+    <br>
+    <!-- Tạo bảng và in ra chữ cái -->
+    <h2>Hệ thống bảng chữ cái</h2>
+    <table width="200" height="100">
+        <thead>
+            <tr>
+                <td>a</td>
+                <td>ă</td>
+                <td>â</td>
+                <td>b</td>
+                <td>c</td>
+                <td>d</td>
+                <td>đ</td>
+            </tr>
+            <tr>
+                <td>e</td>
+                <td>ê</td>
+                <td>g</td>
+                <td>h</td>
+                <td>i</td>
+                <td>k</td>
+                <td>l</td>
+            </tr>
+            <tr>
+                <td>m</td>
+                <td>n</td>
+                <td>o</td>
+                <td>ô</td>
+                <td>ơ</td>
+                <td>p</td>
+                <td>q</td>
+            </tr>
+            <tr>
+                <td>r</td>
+                <td>s</td>
+                <td>t</td>
+                <td>u</td>
+                <td>ư</td>
+                <td>v</td>
+                <td>y</td>
+            </tr>
+        </thead>
+    </table>
+
+</body>
+</html>

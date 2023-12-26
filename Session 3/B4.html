@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<hr>
+    <form method="post" action="Tao form don gian.html"></form>
+    <center><h3 style="background-color: orange;">SỞ THÍCH CỦA BẠN</h3></center>
+    <p>Họ và tên <input type="text" placeholder=""></p> 
+    <p>Ngày sinh <input type="date" placeholder="">
+    </p>
+    <p>Giới tính <input type="radio" placeholder="">
+        <label for="">Nam</label> <input type="radio" placeholder="">
+        <label for="">Nữ</label></p>
+    <p>Địa chỉ</p>
+        <textarea rows="4" cols="50"></textarea>
+    <p>Sở thích</p>
+        <table>
+            <thead>
+                <tr>
+                    <input type="checkbox">
+                    <label for="" style="color: darkorange;">Thể thao</label>
+                    <input type="checkbox">
+                    <label for="" style="color: darkorange;">Âm nhạc</label>
+                    <input type="checkbox">
+                    <label for="" style="color: darkorange;">Đọc sách</label><br>
+                </tr>
+                <tr>
+                    <input type="checkbox">
+                    <label for="" style="color: darkorange;">Lướt web</label>
+                    <input type="checkbox">
+                    <label for="" style="color: darkorange;">Chơi game</label>
+                    <input type="checkbox">
+                    <label for="" style="color: darkorange;">Điện ảnh</label><br>
+                </tr>
+                <tr>
+                    <input type="checkbox">
+                    <label for="" style="color: darkorange;">Du lịch</label>
+                </tr>
+            </thead>
+        </table>
+        <table>
+            <thead>
+                <tr>
+                    <td><input type="submit" name="" value="Gửi thông tin"/></td>
+                    <td><input type="reset" name="" value="Nhập lại"/></td>
+                </tr>
+            </thead>
+        </table>
+        <br>
+        <!-- Mẫu 2 -->
+        <h3 style="color: aqua; background-color: green;" >ĐĂNG KÍ HỌC VIÊN</h3>
+        <form style="background-color: yellow">
+            <div>
+                <label for="name" style="color: purple; "><b>Họ và tên</b></label>
+                <input type="text", name="name">
+            </div>
+            <br>
+            <div>
+                <label for="date" style="color: purple;"><b>Ngày sinh</b></label>
+                <input type="date" name="date">
+            </div>
+            <br>
+            <div>
+                <label for="sex" style="color: purple;"><b>Giới tính</b></label>
+                <input type="radio" name="sex"> Nam
+                <input type="radio" name="sex"> Nữ
+            </div>
+            <br>
+            <div>
+                <label for="address" style="color: purple;"><b>Địa chỉ</b></label>
+                <textarea name="address" id="" cols="30" rows="10"></textarea>
+            </div>
+            <br>
+            <div>
+                <label for="class" style="color: purple;"><b>Lớp</b></label>
+                <select name="class" id="">
+                    <option value="">--Chọn lớp--</option>
+                    <option value="">12A1</option>
+                    <option value="">12A2</option>
+                    <option value="">12A3</option>
+                    <option value="">12A4</option>
+                    <option value="">12A5</option>
+                    <option value="">12A6</option>
+                    <option value="">12A7</option>
+                    <option value="">12A8</option>
+                    <option value="">12A9</option>
+                    <option value="">12A10</option>
+                    <option value="">12A11</option>
+                    <option value="">12A12</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="email" style="color: purple;"><b>Email</b></label>
+                <input type="email" name="email">
+            </div>
+            <br>
+            <div>
+                <label for="phone" style="color: purple;"><b>Số điện thoại</b></label>
+                <input type="phone" name="phone">
+            </div>
+            <br>
+            <input type="submit" value="Đăng ký">
+            <input type="reset" value="Nhập lại">
+        </form>
+        <br>
+        <!-- Bài 3 -->
+        <form>
+            <h3>Market Research Survey</h3>
+            <p>Please take a few moments to complete this satisfaction survey</p>
+            <hr></hr>
+        <div>
+            <label for="age"><h4>What is your age range?</h4></label>
+            <select name="age" id="">
+                <option value="">18-24</option>
+                <option value="">18</option>
+                <option value="">19</option>
+                <option value="">20</option>
+                <option value="">21</option>
+                <option value="">22</option>
+                <option value="">23</option>
+                <option value="">24</option>
+            </select>
+        </div>
+        <div>
+            <label for="cost"><h4>What is your yearly income range?</h4></label>
+            <select name="cost" id="">
+                <option value="">$0-$25000</option>
+                <option value="">$2000</option>
+                <option value="">$4000</option>
+                <option value="">$6000</option>
+                <option value="">$10000</option>
+                <option value="">$15000</option>
+                <option value="">$20000</option>
+                <option value="">$25000</option>
+            </select>
+        </div>
+        <div>
+            <label for="gender"><h4>Gender Identity</h4></label>
+            <input type="radio" name="gender">Male
+            <br>
+            <input type="radio" name="gender">Female
+            <br>
+            <input type="radio" name="gender">Nonbirary
+            <br>
+            <input type="radio" name="gender">Other
+            <br>
+            <input type="text" name="gender">
+        </div>
+        <br>
+        <div>
+            <label for="product"><h4>Which of following products have your purchased in the last 2 months. Please check all that apply.</h4></label>
+            <input type="checkbox">Product 1
+            <br>
+            <input type="checkbox">Product 2
+            <br>
+            <input type="checkbox">Product 3
+        </div>
+        <br>
+        <div>
+            <label for="howoften"><h4>How often would you use our new product?</h4></label>
+            <input type="radio" name="howoften">Daily
+            <br>
+            <input type="radio" name="howoften">Weekly
+            <br>
+            <input type="radio" name="howoften">Monthly
+        </div>
+        <br>
+            <label for="pay"><h4>What would you pay for the new product?</h4></label>
+            $ <input type="pay" name="pay" style="width: 60px;"> . <input type="pay" name="pay" style="width: 40px;">
+                <div>
+                    <span style="margin-left: 11px;">Dollars</span>  
+                    <span style="margin-left: 30px;">Cents</span>  
+                </div>
+            </div>          
+        <br>
+        <div>
+            <label for=""><h4>What features would you like to see in the new product</h4></label>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="">Please rate your level of agreements with the following statements.</label>
+            <style type="text/css">
+                table, th, td{
+                    border: 1px solid black;
+                    border-collapse: collapse;
+                } 
+            </style>
+            <table>
+                <thead>
+                    <tr style="background-color: gray;">
+                        <th style="text-align: center;" width="250"></th>
+                        <th style="text-align: center;" width="150">Strongly Disagree</th>
+                        <th style="text-align: center;" width="150">Disagree</th>
+                        <th style="text-align: center;" width="150">Agree</th>
+                        <th style="text-align: center;" width="150">Strongly agree</th> 
+                    </tr>
+                    <tr>
+                        <th>Our products are priced fairly.</th>
+                        <td style="text-align: center;"><input type="radio"><br><span style="margin-left: 4px;">1</span> </td>
+                        <td style="text-align: center;"><input type="radio"><br><span style="margin-left: 4px;">2</span> </td>
+                        <td style="text-align: center;"><input type="radio"><br><span style="margin-left: 4px;">3</span> </td>
+                        <td style="text-align: center;"><input type="radio"><br><span style="margin-left: 4px;">4</span> </td>
+                    </tr>
+                    <tr style="background-color: gray;">
+                        <th>Our products are high quality.</th>
+                        <td style="text-align: center;"><input type="radio"><br><span style="margin-left: 4px;">1</span> </td>
+                        <td style="text-align: center;"><input type="radio"><br><span style="margin-left: 4px;">2</span> </td>
+                        <td style="text-align: center;"><input type="radio"><br><span style="margin-left: 4px;">3</span> </td>
+                        <td style="text-align: center;"><input type="radio"><br><span style="margin-left: 4px;">4</span> </td>
+                    </tr>
+                    <tr>
+                        <th>You would recommend our product to a friend or coworker.</th>
+                        <td style="text-align: center;"><input type="radio"><br><span style="margin-left: 4px;">1</span> </td>
+                        <td style="text-align: center;"><input type="radio"><br><span style="margin-left: 4px;">2</span> </td>
+                        <td style="text-align: center;"><input type="radio"><br><span style="margin-left: 4px;">3</span> </td>
+                        <td style="text-align: center;"><input type="radio"><br><span style="margin-left: 4px;">4</span> </td>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+        <br>
+        <input type="submit" value="Submit">
+    </form>  
+</body>
+</html>
