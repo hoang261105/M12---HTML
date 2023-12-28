@@ -1,0 +1,25 @@
+.bai7{
+    display:flex;
+    width: 650px;
+    border: rgb(183, 183, 183) solid;
+    padding-bottom: 10px;
+    position: absolute;
+    
+}
+#img img{
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    padding: 20px 20px;
+}
+
+.text{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15px 0 ;
+}
+#anh{
+    padding-top: 40px;
+    width: 200px;
+}

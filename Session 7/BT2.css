@@ -1,0 +1,17 @@
+#body{
+    width: 320px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-style: ridge;
+    padding-top: 20px;
+}
+#img{
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+#s{
+    width: 300px;
+    border-style: outset;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}

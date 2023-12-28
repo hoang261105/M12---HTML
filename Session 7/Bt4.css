@@ -1,0 +1,33 @@
+#one{
+    width: 300px;
+    height: 200px;
+    border-style: ridge;
+    line-height: 270px;
+}
+
+#two{
+    width: 270px;
+    height: 180px;
+    background-color:darkgrey !important;
+    margin: 0 auto;
+    margin-top: 10px;
+
+}
+
+#three{
+    height: 150px;
+    width: 150px;
+    background-color: #fff;
+    border-radius: 140px;
+    padding-top: 10px;
+}
+
+#img{
+    height: 140px;
+    width: 140px;
+    border-radius: 140px;
+}
+
+#circle{
+    
+}
