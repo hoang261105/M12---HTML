@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bai1{
+    width: 320px;
+    padding-top: 20px;
+    padding-left: 20px;
+    border-style:ridge;
+}
+
+
+
+.bai1 label{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.bai1 .view{
+    background-color: black;
+    color: white;
+    opacity: 0.7;
+    width: 300px;
+    position: relative;
+    bottom: 31px;
+    left: 0px;
+    padding-top: 10px;
+}
+
+.bai1 .p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding-bottom: 10px;
+}

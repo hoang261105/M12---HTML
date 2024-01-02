@@ -1,0 +1,15 @@
+.bai4{
+    background-color: grey;
+    width: 400px;
+    height: 300px;
+    line-height: 300px;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.6;
+}
+
+.bai4 :hover{
+    background-color: rgb(71, 66, 66);
+    opacity: 1;
+}
