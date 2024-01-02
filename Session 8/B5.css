@@ -1,0 +1,6 @@
+.bai5{
+    position: relative;
+    left: 0px;
+    transition-property: margin-left;
+    transition-delay: 1s;
+}

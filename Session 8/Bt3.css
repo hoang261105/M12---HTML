@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bai3-1{
+    width: 300px;
+    height: 120px;
+    background-color: rgb(231, 220, 220);
+}
+#a1{
+    width: 100px;
+    height: 100px;
+    margin-left: -200px;
+}
+
+.bai3-2{
+    width: 300px;
+    height: 120px;
+    background-color: rgb(231, 220, 220);
+}
+#a2{
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    margin-left: -200px;
+}
+.bai3-3{
+    width: 300px;
+    height: 120px;
+    background-color: rgb(231, 220, 220);
+}
+
+#a3{
+    width: 100px;
+    height: 100px;
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-left: -200px;
+}
+.bai3{
+    width: 300px;
+    height: 400px;
+    border-style: ridge;
+}
