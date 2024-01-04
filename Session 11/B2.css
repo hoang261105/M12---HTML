@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bai2{
+    display: flex;
+    gap: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.football{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.basketball{
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 20px;
+}
+
+.carsport{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.tabletennis{
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 20px;
+}
+

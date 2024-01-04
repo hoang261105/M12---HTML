@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bai4{
+    width: 700px;
+    height: 400px;
+    background-color: blanchedalmond;
+}
+
+li{
+    list-style: none;
+    
+}
+
+body{
+    font-size: 15px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 450px;
+}
+.list{
+    display: flex;
+    gap: 20px;
+    padding: 10px 24px; 
+}
+
+.content{
+    position: relative;
+    left: 60px;
+    top: 60px;
+}
+
+#img img{
+    border-radius: 60%;
+    padding: 20px 20px -10px;
+    position: relative;
+    left: 500px;
+    bottom: 140px;
+}
