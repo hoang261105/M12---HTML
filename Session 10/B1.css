@@ -1,0 +1,43 @@
+.bai1{
+    width: 500px;
+    height: 200px;
+    border-style: ridge;
+}
+
+.flex-container{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.icon1{
+    width: 150px;
+    height: 150px;
+    background-color:  red;
+    border-radius: 15px;
+    text-align: center;
+    line-height: 150px;
+    color: white;
+}
+
+.icon2{
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    border-radius: 150px;
+    text-align: center;
+    line-height: 150px;
+    color: white;
+}
+
+.icon3{
+    width: 150px;
+    height: 150px;
+    background-color:  red;
+    border-radius: 15px;
+    text-align: center;
+    line-height: 150px;
+    color: white;
+}
