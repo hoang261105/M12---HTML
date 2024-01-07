@@ -1,0 +1,185 @@
+.section{
+    padding-left: 100px;
+}
+
+.section1 {
+    width: 1020px;
+}
+
+img{
+    height: 550px;
+}
+
+.line{
+    border: 2px solid #F3F3F3;
+}
+
+.section2 {
+    padding-top: 30px;
+    width: 1020px;
+}
+.gap-section2 {
+    display: flex;
+    gap: 26px;
+}
+.border {
+    
+}
+
+.info{
+    width: 322px;
+    height: 242px;
+}
+
+.border .info h1{
+    font-size: 64px;
+    font-weight: 700;
+    color: #518581;
+}
+
+.border .info p{
+    padding-top: 10px;
+}
+
+.p{
+    width: 322px;
+    height: 120px;
+}
+.p h3{
+    font-size: 24px;
+    font-weight: 700px;
+}
+
+.p p{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.section3{
+    padding-top: 100px;
+    width: 1018px;
+}
+
+.gap-section3{
+    display: flex;
+    justify-content: space-between;
+}
+
+.section3 p{
+    font-size: 18px;
+    color: #FFB23F;
+}
+
+.section3-left h3{
+    padding-top: 10px;
+    font-size: 36px;
+    font-weight: 700px;
+}
+
+.section3-right {
+    padding-top: 20px;
+    width: 380px;
+}
+
+.section3-right p:first-child{
+    font-size: 14px;
+    color: #AFADB5;
+}
+
+.section3-right p:last-child{
+    font-size: 14;
+    color: #518581;
+    position: relative;
+    top: 13px;
+}
+
+.section4{
+    width: 1018px;
+    padding-top: 50px;
+}
+
+.gap-section4{
+    display: flex;
+    gap: 20px;
+    height: 630px;
+}
+
+.info1{
+    width: 420px;
+}
+
+.info1 img{
+    height: 630px;
+    filter: brightness(70%);
+}
+
+.info2{
+    width: 578px;
+}
+
+
+.info2 img{
+    height: 300px;
+    filter: brightness(70%);
+}
+
+.section4 .text{
+    text-align: left;
+    padding-left: 30px;
+    position: relative;
+    bottom: 220px;
+    color: #FFFFFF ;
+}
+
+.section4 .text h4{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.section4 .text p{
+    color: #FFFFFF;
+}
+
+.text #p{
+    opacity: 0.7;
+}
+
+.bottom-info{
+    position: relative;
+    bottom: 132px;
+}
+
+.section5{
+    width: 1020px;
+    padding-top: 100px;
+}
+
+.gap-section5{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sec-left{
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.sec-right{
+    width: 150px;
+    height: 53px;
+}
+
+.sec-right button{
+    width: 150px;
+    height: 53px;
+    color: #FFFFFF;
+    background-color: #518581;
+    border: none;
+}
+
+.line1{
+    border-bottom: 1.5px solid #ECE4DE;
+    width: 1018px;
+    padding-top: 50px;
+}

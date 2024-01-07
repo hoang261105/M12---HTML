@@ -1,0 +1,47 @@
+.header {
+    width: 100%;
+    height: 120px;
+    border: 2px solid #f3f3f3;
+    top: 2px;
+    left: -1px;
+    border: 0 0 2 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header-left {
+
+}
+
+.header-left .logo{
+    width: 130px;
+    height: 42px;
+    top: 20px;
+    left: 20px;
+    display: flex;
+    gap: 12px;
+    font-size: 20px;
+}
+
+.header-between {
+    line-height: 32.4;
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    gap: 60px;
+    color: #151411;
+}
+
+.header-between a:hover{
+    color: #518581;
+}
+
+.header-right {
+
+}
+.material-symbols-outlined {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    gap: 10px;
+}

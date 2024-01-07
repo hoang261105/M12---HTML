@@ -1,0 +1,47 @@
+.footer{
+    padding-left: 100px;
+}
+
+.width-footer {
+    width: 1018px;
+    height: 290px;
+}
+.gap-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 70px;
+    
+}
+
+.footer-left{
+    position: relative;
+    bottom: 30px;
+}
+
+.footer-left b{
+    font-size: 20px;
+}
+
+.footer-left p{
+    position: relative;
+    top: 20px;
+}
+
+.material-symbols-outlined {
+}
+.footer-right .table{
+    width: 370px;
+    height: 210px;
+}
+
+h4{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+td{
+    font-size: 18px;
+    font-weight: 500;
+}
