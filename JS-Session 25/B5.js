@@ -1,9 +1,12 @@
-let n = +prompt('Nhập số n:');
-
+let n = parseInt(prompt("Nhập vào số nguyên n:"));
 let count = 0;
-for(let i=1; i<=n; i++){
-    if(i%2==0){
-        count++;
-    }
+
+while (n !== 0) {
+  let digit = n % 10;
+  if (digit % 2 === 0) {
+    count++;
+  }
+  n = Math.floor(n / 10);
 }
-console.log(count);
+
+console.log("Số chữ số chẵn trong", n, "là:", count);
