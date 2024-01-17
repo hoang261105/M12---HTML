@@ -1,10 +1,13 @@
 function check(num) {
     if(num%2==0){
-        console.log("CHẴN");
+        return ("CHẴN");
     }else{
-        console.log("LẺ");
+        return ("LẺ");
     }
 }
-check(4);
-check(9);
-check(10);
+let num1 = check(4);
+let num2 = check(79);
+let num3 = check(10);
+console.log(num1);
+console.log(num2);
+console.log(num3);
