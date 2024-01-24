@@ -1,0 +1,7 @@
+#input{
+    background-color: yellow;
+}
+
+#input.has-content{
+    background-color: white;
+}
