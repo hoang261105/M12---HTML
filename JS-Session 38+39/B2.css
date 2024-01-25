@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 20vh;
+}
+
+#search-container{
+    position: relative;
+}
+
+#icon{
+    font-size: 20px;
+}
+
+#search-form{
+    display: none;
+}
+
+#search-form input #keyword{
+    padding: 6px 8px;
+    width: 100px;
+    outline: none;
+    border: 1px solid #333;
+    box-shadow: 0 2px 4px black;
+}
