@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="B7.css">
+</head>
+<body>
+    <form id="form">
+        <b>Password Generator</b> <br>
+        <div class="input">
+            <input type="text" id="myInput" disabled>
+            <button id="icon"><i class="fa-regular fa-clipboard" ></i></button>
+        </div>
+        <div class="choose">
+            <div class="left">
+                <p><b>Password Length</b></p>
+                <p><b>Include uppercase letters</b></p>
+                <p><b>Include lowercase letters</b></p>
+                <p><b>Include numbers</b></p>
+                <p><b>Include Symbols</b></p>
+            </div>
+            <div class="right">
+                <input type="number" id="number"> <br><br>
+                <input type="checkbox" id="uppercase"> <br><br>
+                <input type="checkbox" id="lowercase"><br><br>
+                <input type="checkbox" id="numbers"><br><br>
+                <input type="checkbox" id="symbols"><br><br>
+            </div>
+        </div>
+        <div class="bottom">
+            <button id="genBtn"><b>Generate Password</b></button>
+        </div>
+    </form>
+</body>
+<script src="./B7.js"></script>
+</html>

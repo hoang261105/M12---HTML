@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    width: 700px;
+    height: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    width: 700px;
+    height: 30px;
+    background-color: rgb(60, 195, 89);
+    text-align: left;
+    color: white;
+}
+
+.input{
+    display: flex;
+    gap: 100px;
+}
+
+.left input{
+    width: 300px;
+    height: 30px;
+}
+
+.right input{
+    width: 300px;
+    height: 30px;
+}
